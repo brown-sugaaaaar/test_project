@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'TeatController@index');
+Route::get('/index', 'TestController@index');
+
