@@ -8,11 +8,13 @@ class TestController extends Controller
 {
     public function index()
     {
-        return view('index2');
+        return view('index');
     }
 
-    public function edit()
+    public function confirm(Request $request)
     {
-        return view('edit');
+
+        var_dump($request);
+        return view('index2');
     }
 }

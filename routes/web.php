@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index2', 'TestController@index');
+Route::get('/index', 'TestController@index');
 
-Route::get('/edit', 'TestController@edit');
+Route::post('/index2', 'TestController@confirm');
+Route::get('/index2', 'TestController@confirm');
 

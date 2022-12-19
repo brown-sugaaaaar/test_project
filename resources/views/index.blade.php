@@ -9,5 +9,17 @@
 <body>
   <h1>test</h1>
   <p>indexぺーじだよ</p>
+
+  <form acrtion="index2" method="post">
+    <input type="checkbox" name="1">1
+    <input type="checkbox" name="2">2
+    <input type="checkbox" name="3">3
+    <input type="checkbox" name="4">4
+    <input type="checkbox" name="5">5
+  </form>
+
+  <button type="submit">送信</button>
+
 </body>
+
 </html>

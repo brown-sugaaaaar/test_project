@@ -9,5 +9,6 @@
 <body>
   <h1>test</h1>
   <p>index2ぺーじだよ</p>
+  <p>Confirm</p>
 </body>
 </html>
